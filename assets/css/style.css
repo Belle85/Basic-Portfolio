@@ -93,6 +93,37 @@ footer{
     color:white;
 }
 
+form{
+    margin:15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 200%;  
+    color:#7777;
+    
+}
+
+input{
+    width: 925px;
+    color: #7777;
+    border: 1px solid #cccc;
+}
+
+textarea{
+    padding-top:0px;
+    height:150px;
+    width: 925px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: 1px solid #cccc;
+}
+
+.submit-button{
+    background-color: #4aaaa5;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    font-size: 20px;
+}
+
 
 
   
