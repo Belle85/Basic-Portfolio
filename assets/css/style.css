@@ -1,24 +1,29 @@
 body{
-    background-color: white;
+    background: url(../images/YellowBackground.png) repeat;
     margin:auto;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
 header{
     border-bottom: 2px solid #cccc;
     background: #ffffff;
     height:80px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
 }
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
     float:left;
     margin-left:290px;
-    padding-bottom:15px;
-    padding-top:25px;
+    margin-top:0;
+    padding-top: 20px;
+    padding-bottom: 27px;
+    padding-left: 15px;
+    padding-right: 15px;
     color:white;
     background-color: #4aaaa5;
+    position: relative;
 }
 
 nav{
@@ -27,22 +32,58 @@ nav{
     float: right;
     padding-top:35px;
     margin-right:320px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+a:link {
+    color:#cccc;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#4aaaa5;
+    text-decoration: none;
+}
+
+h2{
+    padding: 10px 0px 10px 0px;
+    margin: 10px 15px 0px 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    border-bottom: 3px solid #cccc;
 }
 
 .main-section{
     width: 960px;
     margin: auto;
+    margin-left:290px;
     clear:both;
+    border: 2px solid #dddd;
+    background-color: white;
 }
 
 img{
-    height:80px;
-    width: 90px;
-   
+    height:175px;
+    width: 215px;
+    margin: 15px;
+    float: left;
+}
+
+p{
+    margin:15px;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 200%;  
+    color: #7777;
 }
 
 footer{
+    position:absolute;
+    bottom:0;
+    margin-bottom: 0px;
+    width:100%;
+    height:40px;  
     text-align: center;
     font-size:0.5px;
     background-color: #666666;
@@ -50,6 +91,9 @@ footer{
     padding-top:50px;
     padding-bottom:0px;
     color:white;
- 
 }
+
+
+
+  
 
